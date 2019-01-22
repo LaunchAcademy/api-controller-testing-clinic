@@ -1,0 +1,3 @@
+This repository is designed to be the final code after presenting the `API Endpoint Controller Testing Clinic` as a part of Launch Academy's Rails Week 6 curriculum.
+
+To start, code through the `Building an API in Rails` article, which provides you with a Rails app including campers, and an API endpoint. Remove the feature tests currently implemented.

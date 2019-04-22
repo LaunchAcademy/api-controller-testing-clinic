@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :supply do
-    name "Dozen Eggs"
+    name { Faker::Creature::Cat.breed }
   end
 end

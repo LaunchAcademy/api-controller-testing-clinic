@@ -5,8 +5,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :campers, only: :index
+      resources :campers, only: [:index, :create]
     end
   end
-
 end

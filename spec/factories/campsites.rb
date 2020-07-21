@@ -2,6 +2,6 @@
 
 FactoryBot.define do
   factory :campsite do
-    name { Faker::TvShows::TwinPeaks.location }
+    name { Faker::Games::SuperSmashBros.stage }
   end
 end

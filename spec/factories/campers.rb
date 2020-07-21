@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :camper do
-    name  { Faker::TvShows::TwinPeaks.character }
+    name  { Faker::Games::SuperSmashBros.fighter }
     campsite
   end
 end

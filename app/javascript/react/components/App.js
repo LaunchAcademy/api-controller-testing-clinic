@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
+import Campers from "./Campers"
 
 export const App = (props) => {
-  return (<h1>Make It So React</h1>)
+
+  // const [currentUser, setCurrentUser] = useState({})
+
+  return (
+
+    <BrowserRouter>
+      <Switch>
+          <Route exact path="/campers" component={Campers} />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App

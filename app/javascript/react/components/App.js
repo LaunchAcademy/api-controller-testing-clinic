@@ -7,9 +7,7 @@ import Campers from "./Campers"
 export const App = (props) => {
 
   // const [currentUser, setCurrentUser] = useState({})
-
   return (
-
     <BrowserRouter>
       <Switch>
           <Route exact path="/campers" component={Campers} />
